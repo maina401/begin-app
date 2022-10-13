@@ -22,7 +22,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{message}</p>
-        <p>Change me!</p>
+        <p><del>Change me!</del> Changed!</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
